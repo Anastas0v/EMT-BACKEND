@@ -48,7 +48,7 @@ public class CountryController {
         }
     }
 
-    @PostMapping("add")
+    @PostMapping("/add")
     public ResponseEntity<Country> addNewCountry(@RequestBody CountryDTO countryDTO)
     {
         try {
